@@ -3,7 +3,7 @@ import camelize from './utils/camelize'
 function capitalize(val) {
   return val.charAt(0).toUpperCase() + val.slice(1)
 }
-// Add a comment
+// Add a comment to a branch
 function styleToObject(style) {
   return style
     .split(';')
